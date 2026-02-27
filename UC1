@@ -1,0 +1,23 @@
+public class UseCase1PalindromeCheckerApp {
+
+    // Application Constants
+    static final String APP_NAME = "Palindrome Checker App";
+    static final String APP_VERSION = "Version 1.0";
+
+    // Main Method - Entry Point of the Application
+    public static void main(String[] args) {
+
+        // Welcome Message
+        System.out.println("======================================");
+        System.out.println("Welcome to " + APP_NAME);
+        System.out.println(APP_VERSION);
+        System.out.println("======================================");
+
+        // Application Description
+        System.out.println("This application checks whether a given string is a palindrome.");
+        System.out.println("It will validate input under different conditions in upcoming use cases.");
+
+        // Flow continues (for now just exit message)
+        System.out.println("\nApplication initialized successfully.");
+    }
+}
